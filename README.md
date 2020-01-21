@@ -1,13 +1,33 @@
 # imfdb_downloader
 A web crawler for downloading images from IMFDb
 
+<hl>
+
+How to use:
+- Edit the file start_urls.txt and insert a list of IMFDb urls, e.g., http://www.imfdb.org/wiki/AK47
+
+- Go to the project root
+- Call the spyder using the command:
+  <br>$scrapy crawl wiki
+
+- The images will be saved on the project's root
+- You can edit the directory on the file settings.py
+</hl>
+
+
+<br>
 
 This script is a web crawler for downloading images from the website IMFDb (Internet Movie Firearm Database).
 
+<hl>  
+  Notes:
   
-If you use this script or the dataset, please cite the paper: "Firearm Detection Using Convolutional Neural Networks".
+- If you use this script or the dataset, please cite the paper: "Firearm Detection Using Convolutional Neural Networks".
 
-If you use this script for creating a firearm dataset, please enter in contact for integrating your dataset with our existing one.
+- If you use this script for creating a firearm dataset, please contact us for integrating your dataset with our existing one.
+
+</hl>
+
 
 @conference{icaart19,<br>
 author={Rodrigo Fumihiro de Azevedo Kanehisa. and Areolino de Almeida Neto.},<br>
