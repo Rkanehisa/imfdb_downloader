@@ -9,14 +9,14 @@ If you use this script or the dataset, please cite the paper: "Firearm Detection
 
 If you use this script for creating a firearm dataset, please enter in contact for integrating your dataset with our existing one.
 
-@conference{icaart19,
-author={Rodrigo Fumihiro de Azevedo Kanehisa. and Areolino de Almeida Neto.},
-title={Firearm Detection using Convolutional Neural Networks},
-booktitle={Proceedings of the 11th International Conference on Agents and Artificial Intelligence - Volume 2: ICAART,},
-year={2019},
-pages={707-714},
-publisher={SciTePress},
-organization={INSTICC},
-doi={10.5220/0007397707070714},
-isbn={978-989-758-350-6},
+@conference{icaart19,<br>
+author={Rodrigo Fumihiro de Azevedo Kanehisa. and Areolino de Almeida Neto.},<br>
+title={Firearm Detection using Convolutional Neural Networks},<br>
+booktitle={Proceedings of the 11th International Conference on Agents and Artificial Intelligence - Volume 2: ICAART,},<br>
+year={2019},<br>
+pages={707-714},<br>
+publisher={SciTePress},<br>
+organization={INSTICC},<br>
+doi={10.5220/0007397707070714},<br>
+isbn={978-989-758-350-6},<br>
 }
