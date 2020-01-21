@@ -1,11 +1,16 @@
 import scrapy
 from imfdb.items import ImfdbItem
-from scrapy.selector import HtmlXPathSelector 
+
 
 class WikiSpider(scrapy.Spider):
 	name = "wiki"
 	allowed_domains = ["imfdb.org"]
-	start_urls = ["http://www.imfdb.org/wiki/MP40","http://www.imfdb.org/wiki/MP5","http://www.imfdb.org/wiki/M1911#M1911"]
+	start_urls = []
+	def __init__ (self):
+
+		f = open("start_urls.txt",'r')
+		self.start_urls = [url.strip() for url in f.readlines()]
+		f.close()
 
 	def parse(self, response):
 		self.log("\t\tVisited: " + response.url)
